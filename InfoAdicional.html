@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Informacion Adicional</title>
+<script type="text/javascript" src="InfoAdicional.js"></script>
+</head>
+<body>
+<table align="center" cellpadding="4" cellspacing="4">
+<tr><td>
+<form name="theForm">
+  ¿Has asistido a la universidad?<br>
+  <input type="radio" name="married" value="yes" onclick="return Mostrar1(this, 'marriedInfo')"> Si
+  <input type="radio" name="married" value="no" onclick="return Mostrar2(this, 'marriedInfo')"> No<br>
+  <div id="marriedInfo" style="display: none; margin-left: 20px;">
+    <table>
+      <tr>
+        <td>Nombre de la universidad:</td>
+        <td style="text-align: right;"><input name="name" type="text"></td>
+      </tr><tr>
+        <td>Años asistidos:</td>
+        <td style="text-align: right;"><input name="bday" type="text"></td>
+      </tr><tr>
+        <td>Titulo:</td>
+        <td style="text-align: right;"><input name="bplace" type="text"></td>
+      </tr>
+    </table>
+  </div>
+</form>
+ 
+</td></tr>
+</table>
+</body>
+</html>
